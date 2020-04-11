@@ -1,6 +1,6 @@
 {
   "name": "lru3",
-  "version": "3.1.3",
+  "version": "3.1.4",
   "description": "A simple O(1) LRU cache",
   "homepage": "https://github.com/bluelovers/lru#readme",
   "bugs": {
@@ -24,7 +24,7 @@
   "scripts": {
     "test": "jest",
     "npm:publish": "npm publish",
-    "npm:publish:lerna": "lerna publish",
+    "npm:publish:lerna": "lerna publish --yes",
     "prepublish:lockfile": "npx sync-lockfile .",
     "prepublishOnly_": "yarn run ncu && yarn run sort-package-json && yarn run test",
     "postpublish_": "git commit -m \"chore(release): publish\" .",
