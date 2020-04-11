@@ -24,6 +24,7 @@
   "scripts": {
     "test": "jest",
     "npm:publish": "npm publish",
+    "npm:publish:lerna": "lerna publish",
     "prepublish:lockfile": "npx sync-lockfile .",
     "prepublishOnly_": "yarn run ncu && yarn run sort-package-json && yarn run test",
     "postpublish_": "git commit -m \"chore(release): publish\" .",
