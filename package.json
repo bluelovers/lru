@@ -1,5 +1,5 @@
 {
-  "name": "lru2",
+  "name": "lru3",
   "version": "3.1.1",
   "description": "A simple O(1) LRU cache",
   "homepage": "https://github.com/bluelovers/lru#readme",
@@ -38,5 +38,6 @@
     "quick-lru": "^5.1.0",
     "ts-jest": "^25.3.1",
     "ts-mixer": "^5.1.0"
-  }
+  },
+  "gitHead": "5443111dc8c72d00532e1d370e56be6ffa9ffc5e"
 }
