@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`clear() sets the cache to its initial state 1`] = `"{\\"maxSize\\":2,\\"cache\\":{},\\"oldCache\\":{},\\"_size\\":0,\\"_events\\":{},\\"_eventsCount\\":0}"`;
+
+exports[`clear() sets the cache to its initial state 2`] = `"{\\"maxSize\\":2,\\"cache\\":{},\\"oldCache\\":{},\\"_size\\":0,\\"_events\\":{},\\"_eventsCount\\":0}"`;

@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`inherits Instance toMatchSnapshot 1`] = `
+LRU {
+  "_events": Object {},
+  "_eventsCount": 0,
+  "_maxListeners": undefined,
+  "_size": 0,
+  "cache": Map {},
+  "maxSize": 1000,
+  "oldCache": Map {},
+  "onEviction": [Function],
+  Symbol(kCapture): false,
+}
+`;
+
+exports[`inherits toMatchSnapshot 1`] = `[Function]`;
+
+exports[`inherits toMatchSnapshot 2`] = `
+LRU {
+  "addListener": [Function],
+  "emit": [Function],
+  "eventNames": [Function],
+  "getMaxListeners": [Function],
+  "listenerCount": [Function],
+  "listeners": [Function],
+  "off": [Function],
+  "on": [Function],
+  "once": [Function],
+  "prependListener": [Function],
+  "prependOnceListener": [Function],
+  "rawListeners": [Function],
+  "removeAllListeners": [Function],
+  "removeListener": [Function],
+  "setMaxListeners": [Function],
+}
+`;
+
+exports[`inherits toMatchSnapshot 3`] = `
+Array [
+  "constructor",
+  "remove",
+  "length",
+  "setMaxListeners",
+  "getMaxListeners",
+  "emit",
+  "addListener",
+  "on",
+  "prependListener",
+  "once",
+  "prependOnceListener",
+  "removeListener",
+  "off",
+  "removeAllListeners",
+  "listeners",
+  "rawListeners",
+  "listenerCount",
+  "eventNames",
+]
+`;
+
+exports[`inherits toMatchSnapshot 4`] = `
+Array [
+  "constructor",
+  "_set",
+  "get",
+  "set",
+  "has",
+  "peek",
+  "delete",
+  "clear",
+  "keys",
+  "values",
+  "size",
+]
+`;
+
+exports[`inherits toMatchSnapshot 5`] = `
+Array [
+  "constructor",
+  "_events",
+  "_eventsCount",
+  "_maxListeners",
+  "setMaxListeners",
+  "getMaxListeners",
+  "emit",
+  "addListener",
+  "on",
+  "prependListener",
+  "once",
+  "prependOnceListener",
+  "removeListener",
+  "off",
+  "removeAllListeners",
+  "listeners",
+  "rawListeners",
+  "listenerCount",
+  "eventNames",
+]
+`;
