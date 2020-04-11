@@ -1,11 +1,14 @@
 {
   "name": "lru2",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "description": "A simple O(1) LRU cache",
   "homepage": "https://github.com/bluelovers/lru#readme",
   "bugs": {
     "url": "https://github.com/bluelovers/lru/issues"
   },
+  "workspaces": [
+    "."
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bluelovers/lru.git"
@@ -27,7 +30,6 @@
     "ncu": "npx yarn-tool ncu -u",
     "sort-package-json": "npx yarn-tool sort"
   },
-  "dependencies": {},
   "devDependencies": {
     "@bluelovers/tsconfig": "^1.0.19",
     "@types/jest": "^25.2.1",
