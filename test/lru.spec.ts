@@ -87,8 +87,9 @@ it('get() returns item value', () =>
 
 });
 
-test('.get() - limit', () => {
-	const lru = new  QuickLRU({maxSize: 2});
+test('.get() - limit', () =>
+{
+	const lru = new QuickLRU({ maxSize: 2 });
 	lru.set('1', 1);
 	lru.set('2', 2);
 	expect(lru.get('1')).toEqual(1);
@@ -124,10 +125,7 @@ it('peek() returns item value without changing the order', () =>
 
 	lru.set('baz1', 'foo')
 
-
-
 	expect(lru.get('foo')).not.toBeDefined()
-
 
 });
 
@@ -140,39 +138,11 @@ describe('peek respects max age', async () =>
 		lru.set('foo', 'bar')
 		expect(lru.get('foo')).toEqual('bar')
 
+		await delay(100)
 
-			await delay(100)
-
-			expect(lru.peek('foo')).not.toBeDefined()
+		expect(lru.peek('foo')).not.toBeDefined()
 
 	})
-
-
-
-});
-
-it('', () =>
-{
-
-});
-
-it('', () =>
-{
-
-});
-
-it('', () =>
-{
-
-});
-
-it('', () =>
-{
-
-});
-
-it('', () =>
-{
 
 });
 

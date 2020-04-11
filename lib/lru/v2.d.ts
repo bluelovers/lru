@@ -11,10 +11,10 @@ export interface LRUV2<KeyType, ValueType> extends ILRU_Interface<KeyType, Value
 }
 export declare class LRUV2<KeyType, ValueType> extends EventEmitter {
     protected _optiopts: IOptions<KeyType, ValueType>;
-    cache: Map<KeyType, IElement<KeyType, ValueType>>;
-    head: KeyType;
-    tail: KeyType;
-    _length: number;
+    protected _cache: Map<KeyType, IElement<KeyType, ValueType>>;
+    protected _head: KeyType;
+    protected _tail: KeyType;
+    protected _length: number;
     maxSize: number;
     maxAge: number;
     constructor(maxSizeOrOpts?: number | IOptions<KeyType, ValueType>);
