@@ -1,6 +1,6 @@
 {
   "name": "lru3",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "description": "A simple O(1) LRU cache",
   "homepage": "https://github.com/bluelovers/lru#readme",
   "bugs": {
